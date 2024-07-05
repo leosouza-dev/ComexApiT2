@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
 using ComexApiT2.Data;
-using ComexApiT2.Dtos;
+using ComexApiT2.Dtos.Produtos;
 using ComexApiT2.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ComexApiT2.Controllers

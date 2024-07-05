@@ -3,6 +3,7 @@ using ComexApiT2.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ComexApiT2.Migrations
 {
     [DbContext(typeof(ComexContext))]
-    partial class ComexContextModelSnapshot : ModelSnapshot
+    [Migration("20240705233327_CriandoTabelasClientesEnderecos")]
+    partial class CriandoTabelasClientesEnderecos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ComexApiT2.Dtos
+namespace ComexApiT2.Dtos.Produtos
 {
     public class CreateProdutoDto
     {
